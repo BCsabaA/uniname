@@ -14,7 +14,7 @@ public class UninamePresenter implements IViewListener {
 
 	@Override
 	public void onButtonNewNameClicked() {
-		System.out.println("'Új elnevezés' gomb megnyomvva.");
+		System.out.println("'Új elnevezés' gomb megnyomva.");
 	}
 
 }
