@@ -46,6 +46,7 @@ public class MainView extends JFrame {
 		contentPane.add(panel);
 		
 		btnNewName = new JButton("Új elnevezés");
+		btnNewName.setFocusable(false);
 		btnNewName.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

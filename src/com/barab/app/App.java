@@ -6,6 +6,7 @@ import java.util.List;
 import javax.swing.SwingUtilities;
 
 import com.barab.dao.RoleDao;
+import com.barab.dao.RoleDao;
 import com.barab.model.Role;
 import com.barab.presenter.UninamePresenter;
 import com.barab.view.MainView;
@@ -19,16 +20,23 @@ public class App {
 //		VendorDao vendorDao = new VendorDao();
 //		DeliveryDao deliveryDao = new DeliveryDao();
 		
+//		RoleDaoOld roleDao = new RoleDaoOld();
+//		
+//		Long id = 3L;
+//		
+//		Role role = roleDao.getById(id);
+//		System.out.println("id:" + id + " = " + role.toString());
+//		
+//		List<Role> roles = roleDao.getAll();
+//		roles.stream().forEach(r->System.out.println(r.toString()));
+
 		RoleDao roleDao = new RoleDao();
 		
-		Long id = 3L;
-		
-		Role role = roleDao.getById(id);
-		System.out.println("id:" + id + " = " + role.toString());
+		Role role = roleDao.findById(2L);
+		System.out.println(role.toString());
 		
 		List<Role> roles = roleDao.getAll();
 		roles.stream().forEach(r->System.out.println(r.toString()));
-		
 		
 		MainView mainView = new MainView();
 			

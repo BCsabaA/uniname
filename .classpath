@@ -2,10 +2,11 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="target/classes" path="src">
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
@@ -16,5 +17,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/barab/ws_eclipse_2023-06/uniname/db/UCanAccess-5.0.1.bin/UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/barab/ws_eclipse_2023-06/uniname/db/UCanAccess-5.0.1.bin/UCanAccess-5.0.1.bin/lib/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/barab/ws_eclipse_2023-06/uniname/db/UCanAccess-5.0.1.bin/UCanAccess-5.0.1.bin/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/barab/ws_eclipse_2023-06/uniname/db/UCanAccess-5.0.1.bin/UCanAccess-5.0.1.bin/lib/hsqldb-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/barab/ws_eclipse_2023-06/uniname/db/UCanAccess-5.0.1.bin/UCanAccess-5.0.1.bin/lib/jackcess-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/barab/ws_eclipse_2023-06/uniname/db/UCanAccess-5.0.1.bin/UCanAccess-5.0.1.bin/loader/ucanload.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -52,7 +52,7 @@ public class RoleDao implements IRole {
 	}
 
 	@Override
-	public Role getById(Long id) {
+	public Role findById(Long id) {
 		Role role = null;
 		
 		try {

@@ -10,7 +10,7 @@ public class Database {
 	
 	public Connection createConnection() {
 		try {
-			connection = DriverManager.getConnection("jdbc:ucanaccess://D://Magán//Programok//Eclipse//ws_2023_new//db//uniname.accdb");
+			connection = DriverManager.getConnection("jdbc:ucanaccess://C://Users//barab//ws_eclipse_2023-06//uniname//db//uniname.accdb");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
